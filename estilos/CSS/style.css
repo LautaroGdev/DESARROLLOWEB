@@ -5,6 +5,27 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* **************************************
 ------------INDEX
 **************************************** */
@@ -232,19 +253,71 @@ h4 {
 
 /* FOOTER */
 
-.footer__icons {
-    background-color: #3F3F3F;
+.redes__container {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #1f1f1f;
 }
 
-.icono__tiktok {
+.redes__container ul li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 5px;
     width: 50px;
     height: 50px;
-    border: #ffff;
+    text-align: center;
+}
+
+.redes__container ul li a {
+    display: block;
+    color: #ffff;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.lista__iconos {
+    margin: 0;
+    padding: 0;
+}
+
+.redes__container ul li .facebook:hover {
+    background-color: #3b5998;
+    border-radius: 5px;
+}
+
+.redes__container ul li .instagram:hover {
+    background-color: #e4405f;
+    border-radius: 5px;
+}
+
+.redes__container ul li .tiktok:hover {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 /* **************************************
 ----------- FIN-INDEX
 **************************************** */
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------ */
+
+
+
+
+
+
+
 
 
 /* **************************************
@@ -264,11 +337,13 @@ h4 {
     display: flex;
     justify-content: space-around;
     width: 67%;
-    margin: 50px auto;
+    margin: 150px auto;
 }
 
 .input {
     background-color: #1B1A1B;
+    color: white;
+    padding: 5px 10px;
     border: none;
     border-bottom: 2px solid #3F3F3F;
     border-right: none;
@@ -302,16 +377,17 @@ textarea:focus-visible {
     height: 50px;
 }
 
+.caja__boton input {
+    width: 55%;
+}
+
 .boton {
     padding: 5px 10px;
     font-size: 1.1rem;
-    font-family: 'Antic', sans-serif;
-    font-weight: bold;
     border-radius: 10px;
     color: #ffff;
     background-color: #800000;
     border: none;
-    width: 150px;
 }
 
 .boton:hover {
@@ -326,13 +402,26 @@ textarea:focus-visible {
 **************************************** */
 
 
+
+
+
+
+
+/* ------------------------------------------------------------------------------ */
+
+
+
+
+
+
+
 /* **************************************
 ------------TRABAJOS
 **************************************** */
 
 .galeria {
-    width: 90%;
-    margin: 100px auto;
+    
+    margin: 100px 20px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-auto-flow: dense;
@@ -354,8 +443,8 @@ textarea:focus-visible {
 }
 
 .gigante {
-    grid-row: span 1.5;
-    grid-column: span 1.5;
+    grid-row: span 2;
+    grid-column: span 2;
 }
 
 
@@ -371,6 +460,153 @@ textarea:focus-visible {
 /* **************************************
 ------------ FIN_TRABAJOS
 **************************************** */
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+/* **************************************
+------------ CUIDADOS
+**************************************** */
+
+.cuidados__container {
+    display: flex;
+    justify-content: center;
+    margin: 150px 0;
+}
+
+.cuidados__container div h2 {
+    position: absolute;
+    margin-bottom: 100px;
+}
+
+.cuidados__container div a {
+    color: #ffff;
+}
+
+.cuidados__container img {
+    width: 512.5px;
+    height: 731.16px;
+    opacity: 0.6;
+}
+
+.cuidados__div {
+    background-color: black;
+    width: 512.5px;
+    height: 731.16px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 37px;
+}
+
+.cuidados__div:hover {
+    background-color: #800000;
+    border: 2px solid #3d3d3d;
+    width: 515px;
+    height: 733.66px;
+}
+
+
+
+
+/* ------------------------------------------- */
+
+
+
+
+/*  CONSEJOS-TATTOO */
+
+.consejos__container {
+    display: flex;
+    justify-content: space-between;
+    width: 64%;
+    margin: 150px auto;
+}
+
+.consejos__container__div12 {
+    width: 69%;
+}
+
+.consejos__div2 {
+    margin-top: 50px;
+    padding-right: 226px;
+}
+ 
+.consejos__container h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    color: cornsilk;
+}
+
+.consejos__container div ul li p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+.consejos__container div img {
+    width: 356.66px;
+    height: 508.83px;
+    opacity: 0.7;
+}
+
+.container__boton {
+    display: flex;
+    justify-content: center;
+}
+
+.boton__piercing {
+    background-color: #800000;
+    color: white;
+    width: auto;
+    height: 50px;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.boton__piercing:hover {
+    background-color: black;
+    color: #800000;
+    border: 1px solid #800000;
+}
+
+
+/*  CONSEJOS-TATTOO */
+
+
+
+/* ------------------------------------------- */
+
+
+
+/* **************************************
+------------ FIN_CUIDADOS
+**************************************** */
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------ */
+
+
+
+
 
 
 
@@ -516,6 +752,11 @@ textarea:focus-visible {
 
 
 
+/* ------------------------------------------------------------------------------ */
+
+
+
+
 
 
 @media screen and (min-width: 481px) and (max-width: 800px) {
@@ -645,15 +886,23 @@ textarea:focus-visible {
     /* **************************************
 ------------FIN-CONTACTO
 **************************************** */
+    
     .gigante {
         grid-row: span 2;
         grid-column: span 2;
     }
 
-
-
-
 }
+
+
+
+
+
+/* ------------------------------------------------------------------------------ */
+
+
+
+
 
 
 @media screen and (min-width: 801px) and (max-width: 1024px) {
