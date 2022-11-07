@@ -1,0 +1,58 @@
+/*¨HEADER*/
+
+.navbar__toggler {
+    background-color: #3d3d3d;
+    color: #bdb8ad;
+    margin-right: 10px;
+}
+
+.container__fluid {
+    background-color: black;
+    height: 4vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    &__logo {
+        margin-top: 6px;
+        margin-left: 10px;
+    }
+    &__item {
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+    }
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 60px;
+    &__item {
+    background-color: black;
+}
+    &__link {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+    &__link:hover {
+    border-bottom: 1px solid #bdb8ad;
+    color: white;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/*FIN-HEADER*/
