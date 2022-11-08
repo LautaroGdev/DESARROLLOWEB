@@ -1,14 +1,13 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: black; }
+
 /*¨HEADER*/
-.navbar__toggler {
-  background-color: #3d3d3d;
-  color: #bdb8ad;
-  margin-right: 10px; }
-
-.container__fluid {
-  background-color: black;
-  height: 4vh; }
-
 .header {
   display: flex;
   justify-content: center; }
@@ -24,8 +23,6 @@
   flex-direction: row;
   width: 98%;
   height: 60px; }
-  .navbar__item {
-    background-color: black; }
   .navbar__link {
     color: white;
     text-decoration: none;
@@ -37,4 +34,137 @@
     border-bottom: 1px solid #bdb8ad;
     color: white; }
 
+.nav-item {
+  background-color: black; }
+
+.navbar-toggler {
+  background-color: #3d3d3d;
+  color: #bdb8ad;
+  margin-right: 10px; }
+
+.container-fluid {
+  background-color: black;
+  height: 4vh; }
+
 /*FIN-HEADER*/
+/* SECTION-PORTADA */
+.portada {
+  background-image: url(../../img/fondo_sectionultimo.jpg);
+  background-position: center bottom;
+  height: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .portada__div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(360deg, black, transparent);
+    padding: 1rem;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white; }
+  .portada__links {
+    text-decoration: none;
+    color: darkred; }
+  .portada__links:hover {
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #ffff;
+    color: #800000;
+    font-weight: bolder;
+    padding: 0px 5px; }
+
+/* SECTION-PORTADA-FIN */
+/* SECTION-PRESENTACION */
+.equipo {
+  border-top: 1px solid white;
+  display: flex;
+  justify-content: center;
+  height: 100vh; }
+  .equipo__presentacion {
+    width: 60%;
+    text-align: center;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .equipo__presentacion h2 {
+    margin-bottom: 30px; }
+
+/* SECTION-PRESENTACION-FIN */
+/* CARTEL-EQUIPO */
+.cartel__equipo {
+  text-align: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px; }
+
+/* CARTEL-EQUIPO */
+/* SECTION-TRABAJADORES */
+.trabajadores {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 140px;
+  margin-bottom: 100px;
+  overflow: hidden; }
+  .trabajadores__container {
+    border: 5px solid black;
+    text-align: center; }
+  .trabajadores__container div h2 {
+    font-size: 4em; }
+  .trabajadores__container div h3 {
+    font-size: 2em; }
+  .trabajadores__container div p {
+    text-align: left;
+    padding: 20px; }
+  .trabajadores__container__nombre {
+    border: 1px solid white; }
+  .trabajadores__img {
+    width: 310px;
+    height: 310px;
+    border-radius: 10px; }
+
+/* SECTION-TRABAJADORES-FIN */
+/* FOOTER */
+.cartel__redes {
+  text-align: center;
+  border-top: 1px solid #1f1f1f;
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.redes {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #1f1f1f; }
+  .redes__lista {
+    margin: 0;
+    padding: 0; }
+  .redes__item {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center; }
+  .redes__item a {
+    display: block;
+    color: #ffff;
+    line-height: 50px;
+    font-size: 25px; }
+  .redes__item .facebook:hover {
+    background-color: #3b5998;
+    border-radius: 5px; }
+  .redes__item .instagram:hover {
+    background-color: #e4405f;
+    border-radius: 5px; }
+  .redes__item .tiktok:hover {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px; }
