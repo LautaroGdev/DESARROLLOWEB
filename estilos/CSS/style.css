@@ -317,7 +317,7 @@ h4 {
     margin: 150px auto;
 }
 
-.input {
+.datos__formulario {
     background-color: #1B1A1B;
     color: white;
     padding: 5px 10px;
@@ -328,11 +328,11 @@ h4 {
     width: 400px;
 }
 
-input:focus-visible {   
+.datos__formulario form input:focus-visible {   
     border-bottom:1px solid #800000;
 }
 
-textarea:focus-visible {
+.datos__formulario form textarea:focus-visible {
     border-bottom:1px solid #800000;
 }
 
@@ -358,7 +358,7 @@ textarea:focus-visible {
     width: 55%;
 }
 
-.boton {
+.caja__boton__boton {
     padding: 5px 10px;
     font-size: 1.1rem;
     border-radius: 10px;
@@ -367,7 +367,7 @@ textarea:focus-visible {
     border: none;
 }
 
-.boton:hover {
+.caja__boton__boton:hover {
     background-color: #A60207;
 }
 
@@ -411,15 +411,15 @@ textarea:focus-visible {
     object-fit: cover;
 }
 
-.vertical {
+.galeria__vertical {
     grid-row: span 2;
 }
 
-.horizontal {
+.galeria__horizontal {
     grid-column: span 2;
 }
 
-.gigante {
+.galeria__gigante {
     grid-row: span 2;
     grid-column: span 2;
 }

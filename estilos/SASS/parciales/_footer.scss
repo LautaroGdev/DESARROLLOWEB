@@ -1,0 +1,44 @@
+/* FOOTER */
+
+.redes {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #1f1f1f;  
+    
+    &__lista {
+        margin: 0;
+        padding: 0;
+    }
+    &__item {
+        display: inline-block;
+        text-decoration: none;
+        margin: 0 5px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+    &__item a {
+        display: block;
+        color: #ffff;
+        line-height: 50px;
+        font-size: 25px;
+    }
+    &__item .facebook:hover {
+        background-color: #3b5998;
+        border-radius: 5px;
+    }
+    &__item .instagram:hover {
+        background-color: #e4405f;
+        border-radius: 5px;
+    }
+    &__item .tiktok:hover {
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+}
+
+/* FOOTER-FIN */

@@ -1,0 +1,66 @@
+/* CONTACTO */
+
+.cartel__contacto {
+    padding: 10px 0;
+    margin: 70px auto;
+    text-align: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.datos {
+    display: flex;
+    justify-content: space-around;
+    width: 67%;
+    margin: 150px auto;
+
+    &__input {
+        background-color: #1B1A1B;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        border-bottom: 2px solid #3F3F3F;
+        border-right: none;
+        outline: none;
+        width: 55%;
+    }
+    &__formulario form input:focus-visible {
+        border-bottom:1px solid #800000;
+    }
+    &__formulario form textarea:focus-visible {
+        border-bottom:1px solid #800000;
+    }
+    &__formulario p {
+        font-size: 20px;
+    }
+    &__formulario form p {
+        color: #ffff;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 12px 0px;
+    }
+}
+
+.caja {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    height: 50px;
+    & input {
+        width: 55%;
+    }
+    &__boton {
+        padding: 5px 10px;
+        font-size: 1.1rem;
+        border-radius: 10px;
+        color: #ffff;
+        background-color: #800000;
+        border: none;
+    }
+    &__boton:hover {
+        background-color: #A60207;
+    }
+}
+
+
+/* CONTACTO-FIN */

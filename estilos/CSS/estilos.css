@@ -47,6 +47,7 @@ body {
   height: 4vh; }
 
 /*FIN-HEADER*/
+/* INDEX */
 /* SECTION-PORTADA */
 .portada {
   background-image: url(../../img/fondo_sectionultimo.jpg);
@@ -102,7 +103,7 @@ body {
   border-bottom: 1px solid white;
   margin-bottom: 20px; }
 
-/* CARTEL-EQUIPO */
+/* CARTEL-EQUIPO-FIN */
 /* SECTION-TRABAJADORES */
 .trabajadores {
   display: flex;
@@ -128,14 +129,87 @@ body {
     height: 310px;
     border-radius: 10px; }
 
-/* SECTION-TRABAJADORES-FIN */
-/* FOOTER */
 .cartel__final {
   text-align: center;
   border-top: 1px solid #1f1f1f;
   padding-top: 100px;
   padding-bottom: 100px; }
 
+/* SECTION-TRABAJADORES-FIN */
+/* INDEX-FIN */
+/* CONTACTO */
+.cartel__contacto {
+  padding: 10px 0;
+  margin: 70px auto;
+  text-align: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white; }
+
+.datos {
+  display: flex;
+  justify-content: space-around;
+  width: 67%;
+  margin: 150px auto; }
+  .datos__input {
+    background-color: #1B1A1B;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 2px solid #3F3F3F;
+    border-right: none;
+    outline: none;
+    width: 55%; }
+  .datos__formulario form input:focus-visible {
+    border-bottom: 1px solid #800000; }
+  .datos__formulario form textarea:focus-visible {
+    border-bottom: 1px solid #800000; }
+  .datos__formulario p {
+    font-size: 20px; }
+  .datos__formulario form p {
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px 0px; }
+
+.caja {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
+  height: 50px; }
+  .caja input {
+    width: 55%; }
+  .caja__boton {
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    color: #ffff;
+    background-color: #800000;
+    border: none; }
+  .caja__boton:hover {
+    background-color: #A60207; }
+
+/* CONTACTO-FIN */
+/* TRABAJOS */
+.galeria {
+  margin: 100px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-auto-flow: dense;
+  gap: 1rem; }
+  .galeria div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
+  .galeria__vertical {
+    grid-row: span 2; }
+  .galeria__horizontal {
+    grid-column: span 2; }
+  .galeria__gigante {
+    grid-row: span 2;
+    grid-column: span 2; }
+
+/* TRABAJOS-FIN */
+/* FOOTER */
 .redes {
   height: 10vh;
   display: flex;
@@ -168,3 +242,5 @@ body {
     background-color: black;
     border: 1px solid white;
     border-radius: 5px; }
+
+/* FOOTER-FIN */
