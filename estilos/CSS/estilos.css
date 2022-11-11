@@ -189,6 +189,75 @@ body {
     background-color: #A60207; }
 
 /* CONTACTO-FIN */
+/* CUIDADOS */
+.cuidados__container {
+  display: flex;
+  justify-content: center;
+  margin: 150px 0; }
+  .cuidados__container div h2 {
+    position: absolute;
+    margin-bottom: 100px; }
+  .cuidados__container div a {
+    color: #ffff; }
+  .cuidados__container img {
+    width: 512.5px;
+    height: 731.16px;
+    opacity: 0.6; }
+  .cuidados__container__div {
+    background-color: black;
+    width: 512.5px;
+    height: 731.16px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 37px; }
+  .cuidados__container__div:hover {
+    background-color: #800000;
+    border: 2px solid grey;
+    width: 515px;
+    height: 733.66px; }
+
+/* CUIDADOS-FIN */
+/* CUIDADOS-TATTO */
+.consejos__container {
+  display: flex;
+  justify-content: space-between;
+  width: 64%;
+  margin: 150px auto; }
+  .consejos__container__divs {
+    width: 69%; }
+  .consejos__container__div2 {
+    margin-top: 50px;
+    padding-right: 226px; }
+  .consejos__container h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    color: cornsilk; }
+  .consejos__container div ul li p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 40px; }
+  .consejos__container div img {
+    width: 356.66px;
+    height: 508.83px;
+    opacity: 0.7; }
+
+.container__boton {
+  display: flex;
+  justify-content: center; }
+  .container__boton__piercing {
+    background-color: #800000;
+    color: white;
+    width: auto;
+    height: 50px;
+    margin-top: 30px;
+    padding: 0 20px; }
+  .container__boton__piercing:hover {
+    background-color: black;
+    color: #800000;
+    border: 1px solid #800000; }
+
 /* TRABAJOS */
 .galeria {
   margin: 100px 20px;
@@ -224,8 +293,8 @@ body {
     display: inline-block;
     text-decoration: none;
     margin: 0 5px;
-    width: 50px;
-    height: 50px;
+    width: 49px;
+    height: 49px;
     text-align: center; }
   .redes__item a {
     display: block;

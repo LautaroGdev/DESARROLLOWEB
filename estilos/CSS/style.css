@@ -477,7 +477,7 @@ h4 {
     opacity: 0.6;
 }
 
-.cuidados__div {
+.cuidados__container__div {
     background-color: black;
     width: 512.5px;
     height: 731.16px;
@@ -488,7 +488,7 @@ h4 {
     margin: 0 37px;
 }
 
-.cuidados__div:hover {
+.cuidados__container__div:hover {
     background-color: #800000;
     border: 2px solid #3d3d3d;
     width: 515px;
@@ -512,11 +512,11 @@ h4 {
     margin: 150px auto;
 }
 
-.consejos__container__div12 {
+.consejos__container__divs {
     width: 69%;
 }
 
-.consejos__div2 {
+.consejos__container__div2 {
     margin-top: 50px;
     padding-right: 226px;
 }
@@ -544,7 +544,7 @@ h4 {
     justify-content: center;
 }
 
-.boton__piercing {
+.container__boton__piercing {
     background-color: #800000;
     color: white;
     width: auto;
@@ -553,7 +553,7 @@ h4 {
     padding: 0 20px;
 }
 
-.boton__piercing:hover {
+.container__boton__piercing:hover {
     background-color: black;
     color: #800000;
     border: 1px solid #800000;

@@ -1,0 +1,52 @@
+/* CUIDADOS-TATTO */
+
+.consejos__container {
+    display: flex;
+    justify-content: space-between;
+    width: 64%;
+    margin: 150px auto;
+
+    &__divs {
+        width: 69%;
+    }
+    &__div2 {
+        margin-top: 50px;
+        padding-right: 226px;
+    }
+    & h3 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.3rem;
+        color: cornsilk;
+    }
+    
+    & div ul li p {
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 1.3rem;
+        margin-bottom: 40px;
+    }
+    & div img {
+        width: 356.66px;
+        height: 508.83px;
+        opacity: 0.7;
+    }
+}
+
+.container__boton {
+    display: flex;
+    justify-content: center;
+
+    &__piercing {
+        background-color: #800000;
+        color: white;
+        width: auto;
+        height: 50px;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+    &__piercing:hover {
+        background-color: black;
+        color: #800000;
+        border: 1px solid #800000;
+    }
+}
+

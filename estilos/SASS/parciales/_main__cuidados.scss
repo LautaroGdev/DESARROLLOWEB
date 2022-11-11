@@ -1,0 +1,38 @@
+/* CUIDADOS */
+
+.cuidados__container {
+    display: flex;
+    justify-content: center;
+    margin: 150px 0;
+
+    & div h2 {
+        position: absolute;
+        margin-bottom: 100px;
+    }
+    & div a {
+        color: #ffff;
+    }
+    & img {
+        width: 512.5px;
+        height: 731.16px;
+        opacity: 0.6;
+    }
+    &__div {
+        background-color: black;
+        width: 512.5px;
+        height: 731.16px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: 0 37px;
+    }
+    &__div:hover {
+        background-color: #800000;
+        border: 2px solid grey;
+        width: 515px;
+        height: 733.66px;
+    }
+}
+
+/* CUIDADOS-FIN */
