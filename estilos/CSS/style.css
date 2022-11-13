@@ -623,6 +623,7 @@ h4 {
     }
 
     .container-fluid {
+        
         display: flex;
         flex-wrap: inherit;
         align-items: center;

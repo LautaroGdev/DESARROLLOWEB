@@ -1,0 +1,268 @@
+/* MEDIA */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+ /* INDEX */
+    p {
+        color: floralwhite;
+        font-family: 'Antic', sans-serif;
+        font-size: 15px;
+    }
+    
+    h2 {
+        font-family: 'Six Caps', sans-serif;
+        font-size: 2.5em;
+        color: #ffff;
+    }
+    
+    h3 {
+        color: cornsilk;
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: 1.5em;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        height: 7.5vh;
+    }
+
+    .container-fluid {
+        background-color: black;
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+        height: 7.5vh;
+        padding: 0;
+    }
+
+    .navbar {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 7.5vh;
+        padding: 0;
+    }
+
+    .portada {
+        background-image: url(../../../img/portada_movile_fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        &__div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        background: linear-gradient(360deg, black, transparent);
+        padding: 1rem;
+        border-top: 0.5px solid white;
+        border-bottom: 0.5px solid white;
+        }
+    }
+    .equipo__presentacion {
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .cartel__div {
+        margin: 20px;
+    }
+
+    .trabajadores__img {
+        height: 300px;
+        width: 300px;
+    }
+
+/*FIN_INDEX*/
+/*CONTACTO*/
+
+    .cartel__contacto {
+        padding: 10px 0;
+        margin: 30px 0;
+        width: auto;
+        text-align: center;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+
+    .datos {
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+        margin: 70px 30px;
+    
+        &__input {
+            background-color: #1B1A1B;
+            border: none;
+            border-bottom: 2px solid #3F3F3F;
+            border-right: none;
+            outline: none;
+            width: 100%; 
+        }
+    }
+    
+    .caja__boton {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        height: 50px;
+        width: 100%;
+    }
+
+    .datos__local {
+        margin-top: 50px;
+        padding-top: 50px;
+        border-top: 1px solid #1f1f1f;
+    }
+
+    /* **************************************
+------------FIN-CONTACTO
+**************************************** */
+
+    .vertical, .horizontal, .movil {
+        grid-column: span 2;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 800px) {
+
+    
+    /* **************************************
+------------INDEX
+**************************************** */
+
+
+    p {
+        color: floralwhite;
+        font-family: 'Antic', sans-serif;
+        font-size: 20px;
+    }
+    
+    h2 {
+        font-family: 'Six Caps', sans-serif;
+        font-size: 3em;
+        color: #ffff;
+    }
+    
+    h3 {
+        color: cornsilk;
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
+        font-size: 2em;
+    }
+
+    .container-fluid {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+        height: 7.5vh;
+        padding: 0;
+    }
+    
+    .navbar {
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 7.5vh;
+        padding: 0;
+    }
+
+
+    .portada {
+        background-image: url(../../img/portada_movile.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portada__div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        background: linear-gradient(360deg, black, transparent);
+        padding: 1rem;
+        border-top: 0.5px solid white;
+        border-bottom: 0.5px solid white;
+    }
+
+
+    .equipo__presentacion {
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .cartel__div {
+        margin: 20px 40px;
+    }
+
+    /* **************************************
+------------FIN-INDEX
+**************************************** */
+
+/* **************************************
+------------CONTACTO
+**************************************** */
+
+    .cartel__contacto {
+        padding: 10px 0;
+        margin: 30px 0;
+        width: auto;
+        text-align: center;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+
+    .contenedor__datos__form {
+        display: flex;
+        flex-direction: column-reverse;
+        width: auto;
+        margin: 70px 30px;
+    }
+
+    .input {
+        background-color: #1B1A1B;
+        border: none;
+        border-bottom: 2px solid #3F3F3F;
+        border-right: none;
+        outline: none;
+        width: 100%; 
+    }
+
+    .caja__boton {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        height: 50px;
+    }
+
+    .datos {
+        margin-top: 50px;
+        padding-top: 40px;
+        border-top: 1px solid #1f1f1f;
+    }
+
+    /* **************************************
+------------FIN-CONTACTO
+**************************************** */
+    
+    .gigante {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+
+}
