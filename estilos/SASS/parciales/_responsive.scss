@@ -45,7 +45,7 @@
     }
 
     .portada {
-        background-image: url(../../../img/portada_movile_fondo.jpg);
+        background-image: url(../../img/portada_movile.jfif);;
         background-repeat: no-repeat;
         background-size: cover;
         height: 90vh;
@@ -122,22 +122,158 @@
         border-top: 1px solid #1f1f1f;
     }
 
-    /* **************************************
-------------FIN-CONTACTO
-**************************************** */
+/*FIN-CONTACTO*/
+/* CUIDADOS */
 
+.cuidados__container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+    
+    & div h2 {
+        position: absolute;
+        margin-bottom: 20px;
+    }
+
+    & img {
+        width: 226.5px;
+        height: 331.16px;
+        opacity: 0.6;
+    }
+    
+    &__div {
+        background-color: black;
+        margin: 20px 0px;
+        width: 100vw;
+        height: auto;   
+    }
+
+    &__div:hover {
+        background-color: #800000;
+        border: 2px solid grey;
+        width: 226.5px;
+        height: 331.16px;
+        margin: auto;
+    }
+ 
+}
+
+/* CUIDADOS-TATTOOYPIERCING */
+.consejos__container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: 70px auto;
+
+        &__divs {
+            display: flex;
+            flex-direction: column;
+            width: 90vw;
+        }
+        &__div1 {
+            margin: 0 20px;
+            text-align: center;
+        }
+        &__div1 p {
+            font-size: 1.2rem;
+        }
+        &__div2 {
+            margin-top: 50px;
+            padding: 0 20px;
+        }
+        &__div2 h3 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1rem;
+            color: cornsilk;
+        }
+    
+        &__dvi2 div ul li p {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 0.6rem;
+            margin-bottom: 40px;
+        }
+        &__img {
+            width: 261px;
+            margin: auto;
+        }
+        & div img {
+            width: 259.5px;
+            height: 353.16px;
+            opacity: 0.7;
+        }
+}
+
+.container__boton {
+    display: flex;
+    justify-content: center;
+
+    &__piercing {
+        background-color: #800000;
+        color: white;
+        border: none;
+        width: auto;
+        height: 50px;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+    &__piercing:hover {
+        background-color: black;
+        color: #800000;
+        border: 1px solid #800000;
+    }
+}
+/* FIN-CUIDADOS-TATTOOYPIERCING */
+/* FIN-CUIDADOS */
+/* ELESTUDIO */
+        .estudio {
+            padding: 30px 0px;
+
+        &__container {
+            width: 100%;
+            margin: 0px;
+        }
+        &__img__div {
+            width: 100%;
+            overflow: scroll;
+        }
+        &__img__div img {
+            width: 883px;
+            height: 472px; 
+        }
+        &__texto__div {
+            padding: 50px 0px;
+            margin: 10px;
+        }
+        &__texto__div h2 {
+            font-size: 3.5rem;
+        }
+        &__texto__div h3 {
+            font-size: 2rem;
+        }
+        &__texto__div p {
+            font-size: 1rem;
+        }
+    }
+    .higiene {
+        padding: 50px 0px;
+    
+        &__container {
+            width: 90%;
+        }
+}
+/* ELESTUDIO-FIN */
+/* TRABAJOS */
     .vertical, .horizontal, .movil {
         grid-column: span 2;
     }
-
+    
+/* TRABAJOS-FIN */
 }
 
 @media screen and (min-width: 481px) and (max-width: 800px) {
 
     
-    /* **************************************
-------------INDEX
-**************************************** */
+    /*INDEX*/
 
 
     p {
@@ -210,13 +346,9 @@
         margin: 20px 40px;
     }
 
-    /* **************************************
-------------FIN-INDEX
-**************************************** */
+    /*FIN-INDEX*/
 
-/* **************************************
-------------CONTACTO
-**************************************** */
+    /*CONTACTO*/
 
     .cartel__contacto {
         padding: 10px 0;
@@ -227,42 +359,280 @@
         border-bottom: 1px solid white;
     }
 
-    .contenedor__datos__form {
+    .datos {
         display: flex;
         flex-direction: column-reverse;
         width: auto;
-        margin: 70px 30px;
-    }
-
-    .input {
-        background-color: #1B1A1B;
-        border: none;
-        border-bottom: 2px solid #3F3F3F;
-        border-right: none;
-        outline: none;
-        width: 100%; 
-    }
-
-    .caja__boton {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-        height: 50px;
-    }
-
-    .datos {
+        margin: 70px 100px;
         margin-top: 50px;
         padding-top: 40px;
         border-top: 1px solid #1f1f1f;
+        
+        &__input {
+            background-color: #1B1A1B;
+            border: none;
+            border-bottom: 2px solid #3F3F3F;
+            border-right: none;
+            outline: none;
+            width: 100%; 
+        }
+        &__local {
+            margin-top: 100px;
+        }
+    }
+    .caja__boton {
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        width: 100%;
     }
 
-    /* **************************************
-------------FIN-CONTACTO
-**************************************** */
+    /* FIN-CONTACTO */
     
     .gigante {
         grid-row: span 2;
         grid-column: span 2;
     }
 
+
+
+    /* CUIDADOS */
+    .cuidados__container {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0px;
+    
+        & div h2 {
+            position: absolute;
+            margin-bottom: 75px;
+            font-size: 4rem;
+        }
+
+        &__div a img {
+            width: 426.5px;
+            height: 563.16px;
+            opacity: 0.6;
+        }
+    
+        &__div {
+            background-color: black;
+            margin: 20px 0px;
+            width: 100vw;
+            height: auto;   
+        }
+
+        &__div:hover {
+            background-color: #800000;
+            border: 2px solid grey;
+            width: 426.5px;
+            height: 580.16px;
+            margin: auto;
+        }
+    }
+
+    /* CUIDADOS-FIN */
+    /* CUIDADOS-TATTOOYPIERCING */
+    .cuidados__container {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0px;
+    
+        & div h2 {
+            position: absolute;
+            margin-bottom: 20px;
+        }
+
+        & img {
+            width: 226.5px;
+            height: 331.16px;
+            opacity: 0.6;
+        }
+    
+        &__div {
+            background-color: black;
+            margin: 20px 0px;
+            width: 100vw;
+            height: auto;   
+        }
+
+        &__div:hover {
+            background-color: #800000;
+             border: 2px solid grey;
+            width: 226.5px;
+            height: 331.16px;
+            margin: auto;
+        }
+    }
+ 
+
+
+    /* CUIDADOS-TATTOO */
+    .consejos__container {
+        display: flex;
+        width: 90vw;
+
+        &__divs {
+            display: flex;
+            flex-direction: column;
+        }
+        &__div1 {
+            margin: 0 20px;
+        }
+        &__div2 {
+            margin-top: 50px;
+            padding: 0 20px;
+        }
+        & h3 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1rem;
+            color: cornsilk;
+        }
+    
+        & div ul li p {
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 1.3rem;
+            margin-bottom: 40px;
+        }
+        &__img {
+            width: 261px;
+        }
+        & div img {
+            width: 259.5px;
+            height: 353.16px;
+            opacity: 0.7;
+        }
+    }
+
+    .container__boton {
+        display: flex;
+        justify-content: center;
+
+        &__piercing {
+            background-color: #800000;
+            color: white;
+            border: none;
+            width: auto;
+            height: 50px;
+            margin-top: 30px;
+            padding: 0 20px;
+        }
+        &__piercing:hover {
+            background-color: black;
+            color: #800000;
+            border: 1px solid #800000;
+        }
+    }
+
+/* CUIDADOS-TATTOOYPIERCING-FIN */
+/* ELESTUDIO */
+    .estudio {
+        padding: 30px 0px;
+
+        &__container {
+            width: 100%;
+            margin: 0px;
+        }
+        &__img__div {
+            width: 100%;
+            overflow: scroll;
+        }
+        &__img__div img {
+            width: 883px;
+            height: 472px; 
+        }
+        &__texto__div {
+            padding: 50px 0px;
+            margin: 10px;
+        }
+        &__texto__div h2 {
+            font-size: 3.5rem;
+        }
+        &__texto__div h3 {
+            font-size: 2rem;
+        }
+        &__texto__div p {
+            font-size: 1rem;
+        }
+    }
+    .higiene {
+        padding: 50px 0px;
+
+        &__container {
+            width: 90%;
+        }
+    }
+}  
+/* ELESTUDIO-FIN */
+
+
+
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+    /* CUIDADOS-TATTOOYPIERCING */
+    .cuidados__container {
+        display: flex; 
+    
+        & div h2 {
+            position: absolute;
+            margin-bottom: 75px;
+            font-size: 4rem;
+        }
+
+        & img {
+            width: 400px;
+            height: 530px;
+            opacity: 0.6;
+        }
+    
+        &__div {
+            background-color: black;
+            width: 100vw;
+            height: auto;   
+        }
+
+        &__div:hover {
+            background-color: #800000;
+            border: 2px solid grey;
+            width: 400px;
+            height: 530px;
+            margin: 0px 55px;
+        }
+    }
+
+/* CUIDADOS-TATTOOYPIERCING-FIN */
+/* ELESTUDIO */
+    .estudio {
+        padding: 30px 0px;
+
+        &__container {
+            width: 100%;
+            margin: 0px;
+        }
+        &__img__div img {
+            width: 983px;
+            height: 572px; 
+        }
+        &__texto__div {
+            padding: 50px 0px;
+            margin: 10px;
+        }
+        &__texto__div h2 {
+            font-size: 3.5rem;
+        }
+        &__texto__div h3 {
+            font-size: 2rem;
+        }
+        &__texto__div p {
+            font-size: 1rem;
+        }
+    }
+    .higiene {
+        padding: 50px 0px;
+
+        &__container {
+            width: 90%;
+        }
+    }
+ 
+/* ELESTUDIO-FIN */
 }

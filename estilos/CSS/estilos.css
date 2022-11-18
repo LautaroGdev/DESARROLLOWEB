@@ -278,6 +278,46 @@ p {
     color: #800000;
     border: 1px solid #800000; }
 
+/* ESTUDIO */
+.estudio {
+  padding: 100px 0px; }
+  .estudio__container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .estudio__img__div {
+    margin: auto; }
+  .estudio__img__div img {
+    width: 982px;
+    height: 499px; }
+  .estudio__texto__div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 50px 0px;
+    width: 65%; }
+  .estudio__texto__div h2 {
+    font-size: 4em; }
+  .estudio__texto__div h3 {
+    font-size: 2em; }
+  .estudio__texto__div p {
+    font-size: 1.5em; }
+  .estudio__cartel {
+    text-align: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px; }
+
+.higiene {
+  padding: 150px 0px;
+  display: flex;
+  justify-content: center; }
+  .higiene__container {
+    width: 50%;
+    text-align: center; }
+
 /* TRABAJOS */
 .galeria {
   margin: 100px 20px;
@@ -313,8 +353,8 @@ p {
     display: inline-block;
     text-decoration: none;
     margin: 0 5px;
-    width: 49px;
-    height: 49px;
+    width: 50px;
+    height: 50px;
     text-align: center; }
   .redes__item a {
     display: block;
@@ -330,7 +370,8 @@ p {
   .redes__item .tiktok:hover {
     background-color: black;
     border: 1px solid white;
-    border-radius: 5px; }
+    border-radius: 5px;
+    line-height: 48px; }
 
 /* FOOTER-FIN */
 /* MEDIA */
@@ -368,7 +409,7 @@ p {
     height: 7.5vh;
     padding: 0; }
   .portada {
-    background-image: url(../../../img/portada_movile_fondo.jpg);
+    background-image: url(../../img/portada_movile.jfif);
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -425,16 +466,113 @@ p {
     margin-top: 50px;
     padding-top: 50px;
     border-top: 1px solid #1f1f1f; }
-  /* **************************************
-------------FIN-CONTACTO
-**************************************** */
+  /*FIN-CONTACTO*/
+  /* CUIDADOS */
+  .cuidados__container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px; }
+    .cuidados__container div h2 {
+      position: absolute;
+      margin-bottom: 20px; }
+    .cuidados__container img {
+      width: 226.5px;
+      height: 331.16px;
+      opacity: 0.6; }
+    .cuidados__container__div {
+      background-color: black;
+      margin: 20px 0px;
+      width: 100vw;
+      height: auto; }
+    .cuidados__container__div:hover {
+      background-color: #800000;
+      border: 2px solid grey;
+      width: 226.5px;
+      height: 331.16px;
+      margin: auto; }
+  /* CUIDADOS-TATTOOYPIERCING */
+  .consejos__container {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: 70px auto; }
+    .consejos__container__divs {
+      display: flex;
+      flex-direction: column;
+      width: 90vw; }
+    .consejos__container__div1 {
+      margin: 0 20px;
+      text-align: center; }
+    .consejos__container__div1 p {
+      font-size: 1.2rem; }
+    .consejos__container__div2 {
+      margin-top: 50px;
+      padding: 0 20px; }
+    .consejos__container__div2 h3 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1rem;
+      color: cornsilk; }
+    .consejos__container__dvi2 div ul li p {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 0.6rem;
+      margin-bottom: 40px; }
+    .consejos__container__img {
+      width: 261px;
+      margin: auto; }
+    .consejos__container div img {
+      width: 259.5px;
+      height: 353.16px;
+      opacity: 0.7; }
+  .container__boton {
+    display: flex;
+    justify-content: center; }
+    .container__boton__piercing {
+      background-color: #800000;
+      color: white;
+      border: none;
+      width: auto;
+      height: 50px;
+      margin-top: 30px;
+      padding: 0 20px; }
+    .container__boton__piercing:hover {
+      background-color: black;
+      color: #800000;
+      border: 1px solid #800000; }
+  /* FIN-CUIDADOS-TATTOOYPIERCING */
+  /* FIN-CUIDADOS */
+  /* ELESTUDIO */
+  .estudio {
+    padding: 30px 0px; }
+    .estudio__container {
+      width: 100%;
+      margin: 0px; }
+    .estudio__img__div {
+      width: 100%;
+      overflow: scroll; }
+    .estudio__img__div img {
+      width: 883px;
+      height: 472px; }
+    .estudio__texto__div {
+      padding: 50px 0px;
+      margin: 10px; }
+    .estudio__texto__div h2 {
+      font-size: 3.5rem; }
+    .estudio__texto__div h3 {
+      font-size: 2rem; }
+    .estudio__texto__div p {
+      font-size: 1rem; }
+  .higiene {
+    padding: 50px 0px; }
+    .higiene__container {
+      width: 90%; }
+  /* ELESTUDIO-FIN */
+  /* TRABAJOS */
   .vertical, .horizontal, .movil {
-    grid-column: span 2; } }
+    grid-column: span 2; }
+  /* TRABAJOS-FIN */ }
 
 @media screen and (min-width: 481px) and (max-width: 800px) {
-  /* **************************************
-------------INDEX
-**************************************** */
+  /*INDEX*/
   p {
     color: floralwhite;
     font-family: 'Antic', sans-serif;
@@ -485,12 +623,8 @@ p {
     line-height: 25px; }
   .cartel__div {
     margin: 20px 40px; }
-  /* **************************************
-------------FIN-INDEX
-**************************************** */
-  /* **************************************
-------------CONTACTO
-**************************************** */
+  /*FIN-INDEX*/
+  /*CONTACTO*/
   .cartel__contacto {
     padding: 10px 0;
     margin: 30px 0;
@@ -498,30 +632,192 @@ p {
     text-align: center;
     border-top: 1px solid white;
     border-bottom: 1px solid white; }
-  .contenedor__datos__form {
+  .datos {
     display: flex;
     flex-direction: column-reverse;
     width: auto;
-    margin: 70px 30px; }
-  .input {
-    background-color: #1B1A1B;
-    border: none;
-    border-bottom: 2px solid #3F3F3F;
-    border-right: none;
-    outline: none;
-    width: 100%; }
-  .caja__boton {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    height: 50px; }
-  .datos {
+    margin: 70px 100px;
     margin-top: 50px;
     padding-top: 40px;
     border-top: 1px solid #1f1f1f; }
-  /* **************************************
-------------FIN-CONTACTO
-**************************************** */
+    .datos__input {
+      background-color: #1B1A1B;
+      border: none;
+      border-bottom: 2px solid #3F3F3F;
+      border-right: none;
+      outline: none;
+      width: 100%; }
+    .datos__local {
+      margin-top: 100px; }
+  .caja__boton {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%; }
+  /* FIN-CONTACTO */
   .gigante {
     grid-row: span 2;
-    grid-column: span 2; } }
+    grid-column: span 2; }
+  /* CUIDADOS */
+  .cuidados__container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px; }
+    .cuidados__container div h2 {
+      position: absolute;
+      margin-bottom: 75px;
+      font-size: 4rem; }
+    .cuidados__container__div a img {
+      width: 426.5px;
+      height: 563.16px;
+      opacity: 0.6; }
+    .cuidados__container__div {
+      background-color: black;
+      margin: 20px 0px;
+      width: 100vw;
+      height: auto; }
+    .cuidados__container__div:hover {
+      background-color: #800000;
+      border: 2px solid grey;
+      width: 426.5px;
+      height: 580.16px;
+      margin: auto; }
+  /* CUIDADOS-FIN */
+  /* CUIDADOS-TATTOOYPIERCING */
+  .cuidados__container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px; }
+    .cuidados__container div h2 {
+      position: absolute;
+      margin-bottom: 20px; }
+    .cuidados__container img {
+      width: 226.5px;
+      height: 331.16px;
+      opacity: 0.6; }
+    .cuidados__container__div {
+      background-color: black;
+      margin: 20px 0px;
+      width: 100vw;
+      height: auto; }
+    .cuidados__container__div:hover {
+      background-color: #800000;
+      border: 2px solid grey;
+      width: 226.5px;
+      height: 331.16px;
+      margin: auto; }
+  /* CUIDADOS-TATTOO */
+  .consejos__container {
+    display: flex;
+    width: 90vw; }
+    .consejos__container__divs {
+      display: flex;
+      flex-direction: column; }
+    .consejos__container__div1 {
+      margin: 0 20px; }
+    .consejos__container__div2 {
+      margin-top: 50px;
+      padding: 0 20px; }
+    .consejos__container h3 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1rem;
+      color: cornsilk; }
+    .consejos__container div ul li p {
+      font-family: 'Rajdhani', sans-serif;
+      font-size: 1.3rem;
+      margin-bottom: 40px; }
+    .consejos__container__img {
+      width: 261px; }
+    .consejos__container div img {
+      width: 259.5px;
+      height: 353.16px;
+      opacity: 0.7; }
+  .container__boton {
+    display: flex;
+    justify-content: center; }
+    .container__boton__piercing {
+      background-color: #800000;
+      color: white;
+      border: none;
+      width: auto;
+      height: 50px;
+      margin-top: 30px;
+      padding: 0 20px; }
+    .container__boton__piercing:hover {
+      background-color: black;
+      color: #800000;
+      border: 1px solid #800000; }
+  /* CUIDADOS-TATTOOYPIERCING-FIN */
+  /* ELESTUDIO */
+  .estudio {
+    padding: 30px 0px; }
+    .estudio__container {
+      width: 100%;
+      margin: 0px; }
+    .estudio__img__div {
+      width: 100%;
+      overflow: scroll; }
+    .estudio__img__div img {
+      width: 883px;
+      height: 472px; }
+    .estudio__texto__div {
+      padding: 50px 0px;
+      margin: 10px; }
+    .estudio__texto__div h2 {
+      font-size: 3.5rem; }
+    .estudio__texto__div h3 {
+      font-size: 2rem; }
+    .estudio__texto__div p {
+      font-size: 1rem; }
+  .higiene {
+    padding: 50px 0px; }
+    .higiene__container {
+      width: 90%; } }
+
+/* ELESTUDIO-FIN */
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+  /* CUIDADOS-TATTOOYPIERCING */
+  .cuidados__container {
+    display: flex; }
+    .cuidados__container div h2 {
+      position: absolute;
+      margin-bottom: 75px;
+      font-size: 4rem; }
+    .cuidados__container img {
+      width: 400px;
+      height: 530px;
+      opacity: 0.6; }
+    .cuidados__container__div {
+      background-color: black;
+      width: 100vw;
+      height: auto; }
+    .cuidados__container__div:hover {
+      background-color: #800000;
+      border: 2px solid grey;
+      width: 400px;
+      height: 530px;
+      margin: 0px 55px; }
+  /* CUIDADOS-TATTOOYPIERCING-FIN */
+  /* ELESTUDIO */
+  .estudio {
+    padding: 30px 0px; }
+    .estudio__container {
+      width: 100%;
+      margin: 0px; }
+    .estudio__img__div img {
+      width: 983px;
+      height: 572px; }
+    .estudio__texto__div {
+      padding: 50px 0px;
+      margin: 10px; }
+    .estudio__texto__div h2 {
+      font-size: 3.5rem; }
+    .estudio__texto__div h3 {
+      font-size: 2rem; }
+    .estudio__texto__div p {
+      font-size: 1rem; }
+  .higiene {
+    padding: 50px 0px; }
+    .higiene__container {
+      width: 90%; }
+  /* ELESTUDIO-FIN */ }

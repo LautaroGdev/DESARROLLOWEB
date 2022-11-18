@@ -1,0 +1,61 @@
+/* ESTUDIO */
+
+.estudio {
+    padding: 100px 0px;    
+
+
+    &__container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__img__div {
+        margin: auto;
+    }
+
+    &__img__div img {
+        width: 982px;
+        height: 499px;
+    }
+
+    &__texto__div {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding: 50px 0px;
+        width: 65%;
+    }
+
+    &__texto__div h2 {
+        font-size: 4em;
+    }
+
+    &__texto__div h3 {
+        font-size: 2em;
+    }
+
+    &__texto__div p {
+        font-size: 1.5em;
+    }
+
+    &__cartel {
+        text-align: center;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        margin-bottom: 20px;
+    }
+}
+
+.higiene {
+    padding: 150px 0px;
+    display: flex;
+    justify-content: center;
+
+    &__container {
+        width: 50%;
+        text-align: center;
+    }
+}
